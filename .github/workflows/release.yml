@@ -1,7 +1,8 @@
 name: exercise01
 
 on:
-  push:
+  tags:
+    - *
     branches:
       - main
  
