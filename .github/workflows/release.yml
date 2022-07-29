@@ -2,7 +2,7 @@ name: exercise01
 
 on:
   tags:
-    - *
+    - '*'
     branches:
       - main
  
