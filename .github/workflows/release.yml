@@ -1,8 +1,11 @@
 name: exercise01
 
 on:
-  tags:
-    - '*'
+  push:
+
+    tags:
+      - *
+    
     branches:
       - main
  
